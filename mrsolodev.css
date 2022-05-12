@@ -1,0 +1,335 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+*::before, *::after{
+  content: "";
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.d-block{
+  display: block;
+}
+
+.d-none{
+  display: none;
+}
+
+.border-solid-black{
+  border: 1px solid black;
+}
+
+.border-solid-white{
+  border: 1px solid white;
+}
+
+.border-solid-rgba{
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.border-dashed-black{
+  border: 1px dashed black;
+}
+
+.border-dashed-white{
+  border: 1px solid white;
+}
+
+.border-dashed-rgba{
+  border: 1px dashed rgba(0, 0, 0, .2);
+}
+
+.border-dotted-black {
+  border: 1px dotted black;
+}
+
+.border-dotted-white {
+  border: 1px dotted white;
+}
+
+.border-dotted-rgba {
+  border: 1px dotted rgba(0, 0, 0, .2);
+}
+
+.border-radius-5px{
+  border-radius: 5px;
+}
+
+.border-radius-50p{
+  border-radius: 50%;
+}
+
+.m-top-10{
+  margin-top: 10px;
+}
+
+.m-top-20{
+  margin-top: 20px;
+}
+
+.m-left-10{
+  margin-left: 10px;
+}
+
+.m-left-20{
+  margin-left: 20px;
+}
+
+.m-right-10{
+  margin-right: 10px;
+}
+
+.m-right-20{
+  margin-right: 20px;
+}
+
+.m-bottom-10{
+  margin-bottom: 10px;
+}
+
+.m-right-20{
+  margin-bottom: 20px;
+}
+
+.m-10{
+  margin: 10px 10px;
+}
+
+.m-20{
+  margin: 20px 20px;
+}
+
+.p-10{
+  padding: 10px 10px;
+}
+
+.p-20{
+  padding: 20px 20px;
+}
+
+.p-top-10{
+  padding-top: 10px;
+}
+
+.p-top-20{
+  padding-top: 20px;
+}
+
+.p-left-10{
+  padding-left: 10px;
+}
+
+.p-left-20{
+  padding-left: 20px;
+}
+
+.p-right-10{
+  padding-right: 10px;
+}
+
+.p-right-20{
+  padding-right: 20px;
+}
+
+.p-bottom-10{
+  padding-bottom: 10px;
+}
+
+.p-bottom-20{
+  padding-bottom: 20px;
+}
+
+.box-shadow-rgba{
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
+}
+
+.box-shadow{
+  box-shadow: 0 0 2px 2px black;
+}
+
+.c-white{
+  color: white;
+}
+
+.c-black{
+  color: black;
+}
+
+.t-align-center{
+  text-align: center;
+}
+
+.f-family-courier{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.f-family-mono{
+  font-family: monospace;
+}
+
+.f-family-serif{
+  font-family: serif;
+}
+
+.f-family-sans-serif{
+  font-family: sans-serif;
+}
+
+.f-family-cursive{
+  font-family: cursive;
+}
+
+.position-absolute{
+  position: absolute;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.position-fixed{
+  position: fixed;
+}
+
+.position-stiky{
+  position: sticky;
+}
+
+.aling-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aling-items-center{
+  align-items: center;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.justify-content-sapce-around{
+  justify-content: space-around;
+}
+
+.justify-content-space-evenly{
+  justify-content: space-evenly;
+}
+
+.justify-content-space-between{
+  justify-content: space-between;
+}
+
+.d-flex-col{
+  flex-direction: column
+}
+
+.d-flex-col-re{
+  flex-direction: column-reverse;
+}
+
+.d-flex-set{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-col-set{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.italic-text{
+  font-style: italic;
+}
+
+.underline-text{
+  text-decoration: underline;
+}
+
+.line-through-text{
+  text-decoration: line-through;
+}
+
+.double-text{
+  text-decoration: double;
+}
+
+.ms-button{
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: white;
+  transition: box-shadow 300ms;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.overflow-hide{
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.ms-button:focus, .ms-button:hover{
+  background: rgba(7, 133, 255, 1);
+  box-shadow: 0 0 0 5px rgba(0, 102, 246, .5);
+  color: white;
+  border: none;
+}
+
+.ms-input{
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: white;
+  transition: box-shadow 300ms;
+  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, .2);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.ms-textarea{
+  width: 260px;
+  height: 150px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: white;
+  transition: box-shadow 300ms;
+  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, .2);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+
